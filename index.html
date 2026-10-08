@@ -19,9 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Janaína de Souza Carvalho, psicóloga, especialista em Neuropsicologia, CRP 24/02653.">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" href="/fontes/montserrat.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fontes/cormorant-garamond.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/estilo.css">
 <script type="application/ld+json">
 {
@@ -74,7 +73,7 @@
 
 <header class="topo">
   <div class="limite"><div class="conteudo">
-    <img class="nome" src="img/nome.png" width="1600" height="196" alt="Janaína de Souza Carvalho">
+    <img class="nome" src="/img/nome.webp" width="1240" height="152" fetchpriority="high" alt="Janaína de Souza Carvalho">
     <p class="cargo">Psicóloga · Especialista em Neuropsicologia · CRP 24/02653</p>
     <h1>Um espaço para entender o que você sente e, <em>com método</em>, decidir o que fazer com isso.</h1>
     <div class="botoes">
@@ -87,24 +86,26 @@
   </div></div>
 </header>
 
+<main>
+
 <section id="ajuda">
   <div class="limite">
     <p class="rotulo">Como posso ajudar</p>
     <h2>Atendo adolescentes e adultos, em três frentes que se complementam.</h2>
     <div class="cartoes">
       <article class="cartao">
-        <img class="marca" src="img/cerebro.png" alt="">
+        <img class="marca" src="/img/cerebro.webp" width="44" height="44" alt="">
         <h3>Psicoterapia</h3>
         <p>Na Terapia Cognitivo-Comportamental (TCC), olhamos juntos a relação entre o que você pensa, sente e faz, e construímos estratégias que caibam na sua vida para lidar com o que você enfrenta hoje.</p>
       </article>
       <article class="cartao">
-        <img class="marca" src="img/cerebro.png" alt="">
+        <img class="marca" src="/img/cerebro.webp" width="44" height="44" alt="">
         <h3>Avaliação neuropsicológica</h3>
         <p>Quando há dúvida sobre atenção, memória, aprendizagem ou comportamento, inclusive TDAH e TEA. Reúno história de vida, observação clínica e instrumentos padronizados para mapear como você funciona, e explico o resultado de forma clara.</p>
         <a class="saiba" href="/avaliacao-neuropsicologica/">Quando procurar e perguntas frequentes</a>
       </article>
       <article class="cartao">
-        <img class="marca" src="img/cerebro.png" alt="">
+        <img class="marca" src="/img/cerebro.webp" width="44" height="44" alt="">
         <h3>Laudos e pareceres</h3>
         <p>Documentos escritos para quem vai lê-los: o médico, a escola, a equipe multidisciplinar ou a Justiça. Recebo também encaminhamentos de outros profissionais que precisam de uma avaliação.</p>
       </article>
@@ -159,7 +160,7 @@
 
 <section id="sobre">
   <div class="limite sobre">
-    <img src="img/jana.jpg" width="800" height="800" alt="Janaína de Souza Carvalho">
+    <img src="/img/jana.webp" width="680" height="680" loading="lazy" alt="Janaína de Souza Carvalho">
     <div>
       <p class="rotulo">Sobre mim</p>
       <h2>Gosto de transformar o que é difícil de nomear em algo que dá para entender e trabalhar.</h2>
@@ -197,11 +198,13 @@
   </div>
 </section>
 
+</main>
+
 <footer>
   <div class="limite">
     <span>Janaína de Souza Carvalho · Psicóloga · CRP 24/02653</span>
     <span class="redes"><a href="https://www.instagram.com/janainaneuropsi_/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.linkedin.com/in/janaina-carvalho7" target="_blank" rel="noopener">LinkedIn</a></span>
-    <span><img src="img/cerebro.png" alt=""></span>
+    <span><img src="/img/cerebro.webp" width="28" height="28" alt=""></span>
   </div>
 </footer>
 
