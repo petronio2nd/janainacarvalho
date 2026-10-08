@@ -159,3 +159,5 @@ footer img { height: 28px; width: auto; opacity: .7; vertical-align: middle; }
   display: block; font-family: "Cormorant Garamond", Georgia, serif; font-size: 34px; line-height: 1;
   color: var(--dourado); margin-bottom: 14px;
 }
+footer .redes a { color: var(--cafe-claro); text-decoration: none; border-bottom: 1px solid var(--linha); }
+footer .redes a:hover { color: var(--salvia-escura); }
