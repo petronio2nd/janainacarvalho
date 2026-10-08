@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://carvalhopsi.com/sitemap.xml
