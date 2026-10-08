@@ -3,29 +3,259 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Antes da nossa primeira conversa · Janaína de Souza Carvalho</title>
-<meta name="description" content="Algumas perguntas para eu conhecer você antes da primeira sessão. Leva uns 12 a 15 minutos.">
-<meta name="robots" content="noindex">
+<title>Janaína de Souza Carvalho · Psicóloga · Neuropsicologia</title>
+<meta name="description" content="Psicóloga, especialista em Neuropsicologia (CRP 24/02653). Psicoterapia e avaliação neuropsicológica para adolescentes e adultos, online.">
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<link rel="canonical" href="https://carvalhopsi.com/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Janaína de Souza Carvalho · Psicóloga · CRP 24/02653">
-<meta property="og:title" content="Antes da nossa primeira conversa">
-<meta property="og:description" content="Algumas perguntas para eu conhecer você antes da primeira sessão. Leva uns 12 a 15 minutos.">
+<meta property="og:title" content="Janaína de Souza Carvalho · Psicóloga">
+<meta property="og:description" content="Psicoterapia e avaliação neuropsicológica para adolescentes e adultos, online. Especialista em Neuropsicologia, CRP 24/02653.">
 <meta property="og:url" content="https://carvalhopsi.com/">
-<meta property="og:image" content="https://carvalhopsi.com/previa-anamnese.jpg">
+<meta property="og:image" content="https://carvalhopsi.com/img/previa-site.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Janaína de Souza Carvalho, psicóloga, CRP 24/02653. Antes da nossa primeira conversa.">
+<meta property="og:image:alt" content="Janaína de Souza Carvalho, psicóloga, especialista em Neuropsicologia, CRP 24/02653.">
 <meta name="twitter:card" content="summary_large_image">
-<meta http-equiv="refresh" content="0; url=https://tally.so/r/zxa8jE">
-<script>location.replace("https://tally.so/r/zxa8jE" + location.search);</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f6f1ea; color: #4a403a; font: 18px/1.5 Georgia, serif; padding: 16px; box-sizing: border-box; text-align: center; }
-  a { color: #4a403a; }
+  :root {
+    --creme: #f7f4ee;
+    --cafe: #4b3f3b;
+    --cafe-claro: #7a6d67;
+    --salvia: #87967f;
+    --salvia-escura: #5f6e58;
+    --salvia-clara: #dfe3d8;
+    --dourado: #b7925a;
+    --branco: #fffdf9;
+    --linha: #e6e1d6;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--creme);
+    color: var(--cafe);
+    font: 300 17px/1.7 "Montserrat", "Segoe UI", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-weight: 500;
+    line-height: 1.15;
+    margin: 0;
+    color: var(--cafe);
+  }
+  a { color: var(--salvia-escura); }
+  p { margin: 0 0 1em; }
+  .limite { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+
+  /* Topo */
+  .topo {
+    position: relative;
+    overflow: hidden;
+    background: var(--creme) url("img/capa.jpg") no-repeat center / cover;
+    min-height: 540px;
+    display: flex;
+    align-items: center;
+  }
+  .topo .limite { padding-top: 72px; padding-bottom: 72px; width: 100%; }
+  .topo .conteudo { max-width: 680px; }
+  @media (min-width: 900px) { .topo .conteudo { margin-left: auto; } }
+  .topo .nome { width: min(620px, 92%); height: auto; display: block; margin-bottom: 12px; }
+  .topo .cargo {
+    font-size: 13px; letter-spacing: .18em; text-transform: uppercase;
+    color: var(--cafe-claro); margin: 0 0 32px; font-weight: 400;
+  }
+  .topo h1 { font-size: clamp(32px, 4.6vw, 50px); max-width: 640px; margin-bottom: 28px; }
+  .topo h1 em { font-style: italic; color: var(--salvia-escura); }
+  .botoes { display: flex; flex-wrap: wrap; gap: 14px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 13px 24px; border-radius: 999px; text-decoration: none;
+    font-weight: 500; font-size: 15px; letter-spacing: .02em;
+    border: 1.5px solid var(--salvia-escura); transition: background .2s, color .2s;
+  }
+  .btn-cheio { background: var(--salvia-escura); color: #fff; }
+  .btn-cheio:hover { background: #4e5c48; }
+  .btn-vazio { color: var(--salvia-escura); background: rgba(255,253,249,.6); }
+  .btn-vazio:hover { background: var(--branco); }
+  .btn svg { width: 18px; height: 18px; fill: currentColor; }
+
+  /* Seções */
+  section { padding: 84px 0; }
+  .rotulo {
+    font-size: 12px; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--dourado); font-weight: 500; margin: 0 0 14px;
+  }
+  h2 { font-size: clamp(30px, 3.6vw, 42px); margin-bottom: 36px; max-width: 720px; }
+  .fio { width: 56px; height: 1px; background: var(--dourado); margin: 0 0 40px; }
+
+  .cartoes { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+  .cartao {
+    background: var(--branco); border: 1px solid var(--linha); border-radius: 16px;
+    padding: 32px 28px 28px;
+  }
+  .cartao h3 { font-size: 26px; margin-bottom: 12px; }
+  .cartao p { margin: 0; font-size: 15.5px; color: #5a4f4a; }
+  .cartao .marca { width: 44px; height: 44px; margin-bottom: 18px; opacity: .85; }
+
+  /* Etapas */
+  .etapas-fundo { background: var(--salvia-clara); }
+  .etapas { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 28px 24px; counter-reset: etapa; }
+  .etapa { position: relative; padding-top: 14px; }
+  .etapa::before {
+    counter-increment: etapa; content: counter(etapa, decimal-leading-zero);
+    font-family: "Cormorant Garamond", Georgia, serif; font-size: 44px; line-height: 1;
+    color: var(--salvia-escura); display: block; margin-bottom: 10px;
+  }
+  .etapa h3 { font-size: 24px; margin-bottom: 8px; }
+  .etapa p { font-size: 15px; margin: 0; color: #4f4541; }
+  .etapas-fundo .nota { margin-top: 40px; font-size: 15px; color: #4f4541; max-width: 720px; }
+
+  /* Sobre */
+  .sobre { display: grid; grid-template-columns: minmax(240px, 340px) 1fr; gap: 56px; align-items: center; }
+  .sobre img {
+    width: 100%; height: auto; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    display: block; box-shadow: 0 20px 50px rgba(75,63,59,.12);
+  }
+  .sobre .formacao { margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--linha); font-size: 14px; color: var(--cafe-claro); }
+  .sobre .formacao span { display: block; }
+
+  /* Contato */
+  .contato-fundo { background: var(--cafe); color: #efe9df; }
+  .contato-fundo h2, .contato-fundo h3 { color: #fffdf9; }
+  .contato-fundo .rotulo { color: #cdb48a; }
+  .contato { display: grid; grid-template-columns: 1.3fr 1fr; gap: 56px; align-items: start; }
+  .contato p { color: #d9d1c4; }
+  .contato .btn-cheio { background: #fffdf9; color: var(--cafe); border-color: #fffdf9; }
+  .contato .btn-cheio:hover { background: #efe9df; }
+  .contato dl { margin: 0; font-size: 15px; }
+  .contato dt { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: #cdb48a; margin-top: 18px; }
+  .contato dd { margin: 4px 0 0; }
+  .contato dd a { color: #fffdf9; text-decoration: none; border-bottom: 1px solid rgba(255,253,249,.35); }
+  .aviso { margin-top: 36px; padding-top: 24px; border-top: 1px solid rgba(255,253,249,.15); font-size: 13.5px; color: #bfb5a7; max-width: 720px; }
+
+  footer { padding: 28px 0 36px; font-size: 13px; color: var(--cafe-claro); }
+  footer .limite { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 24px; }
+  footer img { height: 28px; width: auto; opacity: .7; vertical-align: middle; }
+
+  @media (max-width: 760px) {
+    section { padding: 64px 0; }
+    .topo { min-height: 0; background-position: 38% center; }
+    .topo .limite { padding-top: 56px; padding-bottom: 56px; }
+    .sobre, .contato { grid-template-columns: 1fr; gap: 32px; }
+    .sobre img { max-width: 260px; }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 </style>
 </head>
 <body>
-<p>Abrindo o formulário…<br><a href="https://tally.so/r/zxa8jE">Toque aqui se ele não abrir.</a></p>
+
+<header class="topo">
+  <div class="limite"><div class="conteudo">
+    <img class="nome" src="img/nome.png" width="1600" height="196" alt="Janaína de Souza Carvalho">
+    <p class="cargo">Psicóloga · Especialista em Neuropsicologia · CRP 24/02653</p>
+    <h1>Um espaço para entender o que você sente e, <em>com método</em>, decidir o que fazer com isso.</h1>
+    <div class="botoes">
+      <a class="btn btn-cheio" href="https://wa.me/5568999861650" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5.3-.5c.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4M12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8m8.4-18.2A11.8 11.8 0 0 0 .2 17.7L0 24l6.4-1.7A11.8 11.8 0 1 0 20.4 3.6"/></svg>
+        Falar pelo WhatsApp
+      </a>
+      <a class="btn btn-vazio" href="#avaliacao">Como funciona a avaliação</a>
+    </div>
+  </div></div>
+</header>
+
+<section id="ajuda">
+  <div class="limite">
+    <p class="rotulo">Como posso ajudar</p>
+    <h2>Atendo adolescentes e adultos, em três frentes que se complementam.</h2>
+    <div class="cartoes">
+      <article class="cartao">
+        <img class="marca" src="img/cerebro.png" alt="">
+        <h3>Psicoterapia</h3>
+        <p>Na Terapia Cognitivo-Comportamental (TCC), olhamos juntos a relação entre o que você pensa, sente e faz, e construímos estratégias que caibam na sua vida para lidar com o que você enfrenta hoje.</p>
+      </article>
+      <article class="cartao">
+        <img class="marca" src="img/cerebro.png" alt="">
+        <h3>Avaliação neuropsicológica</h3>
+        <p>Quando há dúvida sobre atenção, memória, aprendizagem ou comportamento, inclusive TDAH e TEA. Reúno história de vida, observação clínica e instrumentos padronizados para mapear como você funciona, e explico o resultado de forma clara.</p>
+      </article>
+      <article class="cartao">
+        <img class="marca" src="img/cerebro.png" alt="">
+        <h3>Laudos e pareceres</h3>
+        <p>Documentos escritos para quem vai lê-los: o médico, a escola, a equipe multidisciplinar ou a Justiça. Recebo também encaminhamentos de outros profissionais que precisam de uma avaliação.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="avaliacao" class="etapas-fundo">
+  <div class="limite">
+    <p class="rotulo">Passo a passo</p>
+    <h2>Como funciona a avaliação neuropsicológica</h2>
+    <div class="fio"></div>
+    <div class="etapas">
+      <div class="etapa"><h3>Anamnese</h3><p>Uma conversa longa sobre sua história, a queixa que trouxe você e o que já foi tentado.</p></div>
+      <div class="etapa"><h3>Testagem</h3><p>Algumas sessões com instrumentos padronizados para atenção, memória, linguagem e funções executivas.</p></div>
+      <div class="etapa"><h3>Escalas</h3><p>Quando faz sentido, questionários respondidos por família e escola completam o quadro.</p></div>
+      <div class="etapa"><h3>Laudo</h3><p>O documento que reúne os resultados, a conclusão e as recomendações, escrito para ser lido por quem decide.</p></div>
+      <div class="etapa"><h3>Devolutiva</h3><p>O encontro em que explico tudo, com calma, para você e para quem acompanha você.</p></div>
+    </div>
+    <p class="nota">A avaliação é um processo, não um teste de um dia. O número de sessões depende da queixa e da idade, e combinamos isso logo na anamnese.</p>
+  </div>
+</section>
+
+<section id="sobre">
+  <div class="limite sobre">
+    <img src="img/jana.jpg" width="800" height="800" alt="Janaína de Souza Carvalho">
+    <div>
+      <p class="rotulo">Sobre mim</p>
+      <h2>Gosto de transformar o que é difícil de nomear em algo que dá para entender e trabalhar.</h2>
+      <p>Sou psicóloga, especialista em Neuropsicologia com título registrado no Conselho, e minha abordagem é a Terapia Cognitivo-Comportamental.</p>
+      <p>Trabalhei dois anos no Instituto Socioeducativo do Acre, com adolescentes em situações de alta complexidade, escrevendo relatórios que subsidiaram decisões da Justiça junto com as equipes de Direito e Serviço Social. Em 2026, fui convidada pelo Projeto VITA para um mutirão de avaliação no interior do Acre: três dias de campo e 87 laudos que, para muitas famílias, abriram a porta de terapia, apoio escolar e direitos.</p>
+      <p>Hoje moro em Goiânia e atendo online, com a mesma disciplina de escuta e de escrita técnica, do primeiro ao último caso.</p>
+      <div class="formacao">
+        <span>Psicologia · Centro Universitário do Norte (Uninorte), 2018</span>
+        <span>Especialização em Neuropsicologia · Instituto de Ensino Superior Brasileiro (ESB), 2020</span>
+        <span>Título de Especialista em Neuropsicologia · Conselho Federal de Psicologia</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="contato-fundo">
+  <div class="limite contato">
+    <div>
+      <p class="rotulo">Primeiro passo</p>
+      <h2>Me chame no WhatsApp e a gente combina o resto.</h2>
+      <p>Você me conta em poucas linhas o que está procurando, e eu respondo com os próximos passos e os horários. Antes da primeira conversa, envio um questionário curto, de uns 12 a 15 minutos, para eu chegar já conhecendo um pouco de você.</p>
+      <p>Tudo o que é dito em atendimento é protegido pelo sigilo profissional.</p>
+      <a class="btn btn-cheio" href="https://wa.me/5568999861650" target="_blank" rel="noopener">Falar pelo WhatsApp</a>
+    </div>
+    <dl>
+      <dt>WhatsApp</dt><dd><a href="https://wa.me/5568999861650" target="_blank" rel="noopener">(68) 99986-1650</a></dd>
+      <dt>E-mail</dt><dd><a href="mailto:janaina@carvalhopsi.com">janaina@carvalhopsi.com</a></dd>
+      <dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/janaina-carvalho7" target="_blank" rel="noopener">linkedin.com/in/janaina-carvalho7</a></dd>
+      <dt>Atendimento</dt><dd>Online, para todo o Brasil · Goiânia-GO</dd>
+    </dl>
+  </div>
+  <div class="limite">
+    <p class="aviso">Se você está em sofrimento intenso ou pensando em se machucar agora, ligue 188 (CVV, 24 horas, gratuito) ou procure a emergência mais próxima. Este site não substitui atendimento de urgência.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="limite">
+    <span>Janaína de Souza Carvalho · Psicóloga · CRP 24/02653</span>
+    <span><img src="img/cerebro.png" alt=""></span>
+  </div>
+</footer>
+
 </body>
 </html>
