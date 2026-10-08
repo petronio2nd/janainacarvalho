@@ -12,6 +12,7 @@
   --salvia-clara: #dfe3d8;
   --dourado: #b7925a;
   --dourado-texto: #78603b; /* dourado escurecido: contraste 4,5:1 em texto pequeno */
+  --dourado-grande: #aa8753; /* dourado para texto grande (24 px ou mais): contraste 3:1 no branco */
   --branco: #fffdf9;
   --linha: #e6e1d6;
 }
@@ -163,7 +164,7 @@ footer img { height: 28px; width: auto; opacity: .7; vertical-align: middle; }
 .diferenciais .cartao h3 { font-size: 24px; }
 .diferenciais .numero {
   display: block; font-family: "Cormorant Garamond", Georgia, serif; font-size: 34px; line-height: 1;
-  color: var(--dourado); margin-bottom: 14px;
+  color: var(--dourado-grande); margin-bottom: 14px;
 }
 footer .redes a { color: var(--cafe-claro); text-decoration: none; border-bottom: 1px solid var(--linha); }
 footer .redes a:hover { color: var(--salvia-escura); }
